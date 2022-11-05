@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("images/940735_starry-night-sky-tumblr-wallpaper_1678x1302_h 1.png");
+  background-color: #121111;
+  color: #FFF8E7;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121111;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFF8E7;
+  border-radius: 100px;
+}
+
+.home {
+  min-height: 100vh;
+  padding: 0 7%;
+}
+
+.nav-item {
+  margin: 0;
+  text-decoration: none;
+  color: #FFF8E7;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 115%;
+  transition: all 0.25s;
+}
+
+.nav-item:hover{
+  font-weight: 900;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2.5em;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 1.75em;
+}
+
+
+.imgtxt {
+  display: flex;
+  padding: 5% 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.txttxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txttxt p{
+  padding: 0 10%;
+}
+
+.imgtxtspace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgrow {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 5% 0;
+  align-items: center;
+}
+
+.purple {
+  font-weight: 700;
+  color: #B668ED;
+}
+
+h1 {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 115%;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 115%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  text-align: center;
+  margin: 7px;
+}
+
+p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 115%;
+}
+
+.homeinfo {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 126%;
+}
+
+.homeimg {
+  width: 50%;
+}
+
+.hometext {
+  padding: 2%;
+}
+
+.home p {
+  width: 80%;
+}
+
+.about {
+  padding: 0 10%;
+}
+
+.about .imgtxt {
+  padding-top: 0;
+}
+
+.AboutFood, .AboutMusic, .AboutAccomodation {
+  width: 20%;
+  padding: 5%;
+}
+
+.about p {
+  text-align: center;
+}
+
+.bands {
+  padding: 0 15%;
+}
+
+.bands img {
+  width: 100%;
+}
+
+.bandname {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+  margin: 15px;
+}
+
+.greybox {
+  min-height: 18.5em;
+  width: 100%;
+  background-color: #2B2828;
+}
+
+.bandinfo {
+  padding: 0 15%;
+}
+
+.bandinfo p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.tickets {
+  padding: 4% 15%;
+}
+
+.ticketgrey {
+  background-color: #2B2828;
+  padding: 2% 7%;
+  min-height: 21em;
+}
+
+.bronzebox {
+  background-color: #A37E49;
+  height: 60px;
+  min-width: 400px;
+}
+
+.silverbox {
+  background-color: #808080;
+  height: 60px;
+  min-width: 400px;
+}
+
+.goldbox {
+  background-color: #DAA520;
+  height: 60px;
+  min-width: 400px;
+}
+
+.tickets h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 115%;
+  text-align: center;
+  padding: 7% 0;
+}
+
+.bookbutton {
+  background: #F97F5F;
+  border-radius: 25px;
+  text-decoration: none;
+  border: none;
+  padding: 8px 40px;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  transition: all 0.25s;
+}
+
+.bookbutton:hover{
+  background-color: #FC6139;
+}
+
+.end{
+  font-size: 64px;
+  padding: 2%;
+}
+
+@media (max-width: 991px) {
+
+  .home{
+    min-height: 90vh;
+  }
+
+  .imgtxt {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgtxtspace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .homeimg {
+    width: 80%;
+  }
+
+  .tickets {
+    padding: 4%;
+  }
+
+  .about {
+    padding: 0 4%;
+  }
+
+  .bandinfo {
+    padding: 0 2%;
+  }
+
+  .AboutFood, .AboutMusic, .AboutAccomodation {
+    width: 80%;
+    padding: 2%;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20%);
+  transition: opacity 900ms ease-out, transform 700ms ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in-opacity {
+  opacity: 0;
+  transition: opacity 900ms ease-out;
+}
+
+.fade-in-opacity.appear {
+  opacity: 1;
+}
